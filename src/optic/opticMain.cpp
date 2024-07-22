@@ -832,3 +832,7 @@ list<FFEvent> * readPlan(char* filename)
 
     return toReturn;
 };
+
+int yywrap() {
+    return 1;
+}
